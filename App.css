@@ -1,0 +1,45 @@
+.App{
+  min-height: 100vh;
+  width: 100vw;
+  padding: 1rem;
+  background: #023a15ec;
+  color: whitesmoke;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.Results{
+  width: 99%;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.search-form{
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-bar{
+  width: 50%;
+  border:none;
+  padding: 10px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+
+.search-btn{
+  padding:10px 20px;
+  color: blue;
+  cursor: pointer;
+  border-radius: 8px;
+  border: none;
+}
+
